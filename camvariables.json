@@ -28,7 +28,8 @@
         "group": "virtualmachine"
     },
     {
-        "description": "SoftLayer datacenter where infrastructure resources will be deployed",
+        "default": "ams01",
+	"description": "SoftLayer datacenter where infrastructure resources will be deployed",
         "hidden": false,
         "immutable": false,
         "label": "SoftLayer Data Center",
