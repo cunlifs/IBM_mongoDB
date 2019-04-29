@@ -25,7 +25,8 @@
         "secured": false,
         "type": "string",
 	      "regex": "^ssh-rsa AAAA[0-9A-Za-z+/]+[=]{0,3}( [^@]+@[^@]+| [^@]+){0,1}$",
-        "group": "virtualmachine"
+        "group": "virtualmachine",
+	"default": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD2qNUd5CSAozVUrXvoHXZIY/2ckVhN4wXVibXz+E8TqwwxJYXwqRMI61vilf5QGnvmq52H5/08wd7I6kT75n2zieFqjuFUm2N7MelsPsWctn/VOEGLp9bkiRK4xZr4MGj/LIl0BfW5X2PO4teRw0PUj/NcZ+D9HAD0Zw4PvXgx4yDirikxGL3shQyT4frQoEIApmlxmItRIn1YZuoX5ktF3ZQdlGJZL8++5B/kpclzYoBFZezYh256hiytcKTw/I1jagw6oKYUQjCeg0AEoXzgX/BcGj3/0zYh1PKlefUr+qQJnmfkBGwmB8i/Hua6ZotwyY2ETBD1B1581nSnnlcZ Cunlifs@Stus-MBP"
     },
     {
         "default": "ams01",
@@ -166,7 +167,7 @@
         "group": "virtualmachine"
     },
     {
-        "default": "debian-small",
+        "default": "mongo-vm",
         "description": "Hostname of the virtual instance (small flavor) to be deployed",
         "hidden": false,
         "immutable": false,
@@ -178,7 +179,7 @@
         "group": "virtualmachine"
     },
     {
-        "default": "sample.com",
+        "default": "ibmlabs.com",
         "description": "Domain of the virtual instance to be deployed",
         "hidden": false,
         "immutable": false,
